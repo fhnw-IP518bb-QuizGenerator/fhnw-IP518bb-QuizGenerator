@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FHNW IP518bb QuizGenerator</title>
+        <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="assets/css/simple-grid.css">
+        <link rel="stylesheet" href="assets/css/utils.css">
+        <link rel="stylesheet" href="assets/css/layout.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/navigation.css">
+    </head>
+    <body>
+        <header class="header pd-v-tn">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="float-left">
+                            FHNW IP518bb QuizGenerator
+                        </h1>
+                        <a href="https://github.com/fhnw-IP518bb-QuizGenerator" title="GitHub organisation" class="float-right">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container mg-t-sm">
+            <div class="row">
+                <aside class="col-4 sticky">
+                    <nav class="navigation">
+                        <ul class="mg-t-xs">
+                            <li>
+                                <a href="#about-this-project">About this project</a>
+                            </li>
+                            <li>
+                                <a href="#getting-started">Getting started</a>
+                            </li>
+                            <li>
+                                <a href="#further-information">Further information &amp; License</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+
+                <div class="col-8">
+                    <h2>
+                        <a name="about-this-project" href="#about-this-project" class="link">About this project</a>
+                    </h2>
+
+                    <h3>
+                        Summary
+                    </h3>
+
+                    <p>
+                        Automatic generation of quiz questions out of arbitrary free text.
+                    </p>
+
+                    <h3>
+                        Keywords
+                    </h3>
+
+                    <p>
+                        NLP, Python, NLTK, pattern.de, Jupyter, PHP, Web, Text mining
+                    </p>
+
+                    <h3>
+                        Goal of this project
+                    </h3>
+
+                    <p>
+                        The aim of the project was a feasibility study to answer the question whether questions can be
+                        generated automatically from any german text. The original project assignment included both cloze
+                        text, knowledge questions and multiple choice tasks. For time reasons, the focus was placed on
+                        knowledge questions in the form of W questions (Who/Where/What/When... ?).
+                    </p>
+
+                    <h3>
+                        Starting position
+                    </h3>
+
+                    <p>
+                        Quizzes will be generated automatically for the game and learning platform "Unser Dorf". The
+                        teachers who fill the platform with data can use the quiz generator to generate a series of quiz
+                        questions for the students. These questions can then be used for learning control. This project
+                        originally started as a single requirement of the IP417bbOLD_UnserDorf project.
+                    </p>
+                    <p>
+                        The project IP518bb_QuizGenerator should find out whether quiz questions can be generated
+                        automatically from any free text. For this purpose a feasibility study is to be accomplished.
+                    </p>
+
+                    <h3>
+                        Results
+                    </h3>
+
+                    <p>
+                        The question has been answered: Yes, questions can be generated automatically from any text.
+                    </p>
+
+                    <p>
+                        An application in the form of an iPython notebook was implemented, which generates a series of
+                        questions from any text. These are rudimentarily evaluated and corrected by the application.
+                    </p>
+
+                    <p>
+                        In addition, a web crawler was developed which automatically saves and pre-cleans all texts of a website as CSV. This web crawler was used to prepare the texts of the website www.laeufelfingen.com for the QuizGenerator.
+                    </p>
+
+                    <p>
+                        The quality of the generated questions was tested four times with a series of test persons in a modified version of the Turing test: For every 20 questions, the respondents were asked to indicate whether they thought that the question was more likely to be generated by a computer or written by hand. Quality assurance showed that the quality of the questions is good, but still capable of improvement.
+                    </p>
+
+                    <p>
+                        The resulting application has a modular structure and can be expanded in a follow-up project. In addition, the project with the WebCrawler was published under the MIT license on GitHub.
+                    </p>
+
+                    <h3>
+                        Projekt data
+                    </h3>
+
+                    <ul>
+                        <li>
+                            Project duration: 2 semesters, 2018-09-05 - 2018-12-03
+                        </li>
+                        <li>
+                            Hours put into project: 180 hours per person
+                        </li>
+                        <li>
+                            Team size: Two persons
+                        </li>
+                        <li>
+                            Project type: Projekt 5 Informatik
+                        </li>
+                    </ul>
+
+                    <h3>
+                        Auftraggeber
+                    </h3>
+
+                    <p>
+                        Daniel Mohler
+                    </p>
+
+                    <h3>
+                        Projektteam
+                    </h3>
+
+                    <ul>
+                        <li>
+                            Patrick Stirnemann (<a href="mailto:patrick.stirnemann@students.fhnw.ch">patrick.stirnemann@students.fhnw.ch</a>)
+                        </li>
+                        <li>
+                            Pascal Thormeier (<a href="mailto:pascal.thormeier@students.fhnw.ch">pascal.thormeier@students.fhnw.ch</a>)
+                        </li>
+                    </ul>
+
+                    <h2>
+                        <a name="getting-started" href="#getting-started" class="link">Getting started</a>
+                    </h2>
+
+                    <p>
+                        A detailed guide on how to get either the webcrawler or the iPython notebook running, please, refer to the README files of the respective project:
+                    </p>
+
+                    <ul>
+                        <li>
+                            WebCrawler: <a href="https://github.com/fhnw-IP518bb-QuizGenerator/webcrawler/blob/master/README.md">github.com/fhnw-IP518bb-QuizGenerator/webcrawler/blob/master/README.md</a>
+                        </li>
+                        <li>
+                            iPython notebook: <a href="https://github.com/fhnw-IP518bb-QuizGenerator/IP518bb_QuizGenerator/blob/master/README.md">github.com/fhnw-IP518bb-QuizGenerator/IP518bb_QuizGenerator/blob/master/README.md</a>
+                        </li>
+                    </ul>
+
+                    <h2>
+                        <a name="further-information" href="#further-information" class="link">Further information &amp; license</a>
+                    </h2>
+
+                    <h3>
+                        Project documentation
+                    </h3>
+
+                    <p>
+                        If you're interested in the documentation of the project, don't hestitate to contact one of the developers. Keep in mind that the document is German only.
+                    </p>
+
+                    <h3>
+                        License
+                    </h3>
+
+                    <p>
+                        Both projects (iPython notebook and WebCrawler) have been published under the MIT license.
+                    </p>
+
+                    <p class="block">
+                        Copyright 2018 Daniel Mohler<br>
+                        Copyright 2018 Patrick Stirnemann<br>
+                        Copyright 2018 Pascal Thormeier<br><br>
+
+                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+                        documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+                        rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+                        persons to whom the Software is furnished to do so, subject to the following conditions:<br><br>
+
+                        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+                        Software.<br><br>
+
+                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+                        WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+                        COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+                        OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

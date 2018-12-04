@@ -1,0 +1,23 @@
+.header {
+    background-color: #dedede;
+    color: #123c69;
+    border-bottom: 3px solid #123c69;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin: 0;
+}
+
+.header a {
+    line-height: 1.8rem;
+    height: 1.8rem;
+    text-decoration: none;
+}
+
+.header svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    fill: #123c69;
+}

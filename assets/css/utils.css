@@ -1,0 +1,93 @@
+/*
+sizes:
+0.8rem
+1.8rem
+3rem
+6rem
+10rem
+ */
+
+.mg-t-xs, .mg-v-xs {
+    margin-top: 0.8rem;
+}
+.mg-t-tn, .mg-v-tn {
+    margin-top: 1.8rem;
+}
+.mg-t-sm, .mg-v-sm {
+    margin-top: 3rem;
+}
+.mg-t-md, .mg-v-md {
+    margin-top: 6rem;
+}
+.mg-t-lg, .mg-v-lg {
+    margin-top: 10rem;
+}
+
+.mg-b-xs, .mg-v-xs {
+    margin-bottom: 0.8rem;
+}
+.mg-b-tn, .mg-v-tn {
+    margin-bottom: 1.8rem;
+}
+.mg-b-sm, .mg-v-sm {
+    margin-bottom: 3rem;
+}
+.mg-b-md, .mg-v-md {
+    margin-bottom: 6rem;
+}
+.mg-b-lg, .mg-v-lg {
+    margin-bottom: 10rem;
+}
+
+.pd-t-tn, .pd-v-tn {
+    padding-top: 1.8rem;
+}
+.pd-t-sm, .pd-v-sm {
+    padding-top: 3rem;
+}
+.pd-t-md, .pd-v-md {
+    padding-top: 6rem;
+}
+.pd-t-lg, .pd-v-lg {
+    padding-top: 10rem;
+}
+
+.pd-b-tn, .pd-v-tn {
+    padding-bottom: 1.8rem;
+}
+.pd-b-sm, .pd-v-sm {
+    padding-bottom: 3rem;
+}
+.pd-b-md, .pd-v-md {
+    padding-bottom: 6rem;
+}
+.pd-b-lg, .pd-v-lg {
+    padding-bottom: 10rem;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+}
+
+.link:hover:after {
+    content: '#';
+    text-decoration: none;
+    color: #c0c0c0;
+    padding-left: 0.8rem;
+}
+
+.block {
+    border-left: 3px solid #123c69;
+    background-color: #dedede;
+    padding-left: 0.8rem;
+}
